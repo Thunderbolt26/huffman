@@ -1,0 +1,29 @@
+﻿Build started 17.06.2016 19:07:31.
+     1>Project "C:\Users\HP\documents\visual studio 2013\Projects\huffman\huffman\huffman.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         G:\Visual Studio 12\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\huffman.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         G:\Visual Studio 12\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\huffman.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt code_table.cpp decoder.cpp encoder.cpp main.cpp parser_option.cpp tree.cpp
+         tree.cpp
+         parser_option.cpp
+         main.cpp
+         encoder.cpp
+     1>c:\users\hp\documents\visual studio 2013\projects\huffman\huffman\encoder.cpp(29): warning C4101: 'e' : unreferenced local variable
+         decoder.cpp
+     1>c:\users\hp\documents\visual studio 2013\projects\huffman\huffman\decoder.cpp(55): warning C4101: 'e' : unreferenced local variable
+         code_table.cpp
+         Generating Code...
+       Link:
+         G:\Visual Studio 12\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\HP\documents\visual studio 2013\Projects\huffman\Debug\huffman.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\HP\documents\visual studio 2013\Projects\huffman\Debug\huffman.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\HP\documents\visual studio 2013\Projects\huffman\Debug\huffman.lib" /MACHINE:X86 Debug\code_table.obj
+         Debug\decoder.obj
+         Debug\encoder.obj
+         Debug\main.obj
+         Debug\parser_option.obj
+         Debug\stdafx.obj
+         Debug\tree.obj
+         huffman.vcxproj -> C:\Users\HP\documents\visual studio 2013\Projects\huffman\Debug\huffman.exe
+     1>Done Building Project "C:\Users\HP\documents\visual studio 2013\Projects\huffman\huffman\huffman.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.49
